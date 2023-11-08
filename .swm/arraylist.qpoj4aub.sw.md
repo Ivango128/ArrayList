@@ -55,7 +55,8 @@ app_version: 1.18.27
 *   `insert`<swm-token data-swm-token=":ArrayList.py:25:3:3:`    def insert(self, index, value):`"/>: Вставляет элемент в указанный индекс в `ArrayList`<swm-token data-swm-token=":ArrayList.py:24:2:2:`class ArrayList(Array):`"/>.
 
 *   `pop`<swm-token data-swm-token=":ArrayList.py:31:3:3:`    def pop(self, index=-1):`"/>: Удаляет элемент из конца `ArrayList`<swm-token data-swm-token=":ArrayList.py:24:2:2:`class ArrayList(Array):`"/> (если не указан индекс) или по указанному индексу.
-<br/>
+
+    <br/>
 
 <br/>
 
@@ -63,23 +64,18 @@ app_version: 1.18.27
 ```mermaid
 classDiagram
 `Array` <|-- `ArrayList`
-
 `Array`: +`[]` `data`
-`Array`: +`append`()
-`Array`: +`get`()
-
-`Array`: +`size`()
-
-`Array`: +`remove`()
+`Array`: +
+`Array`: +
+`Array`: +
+`Array`: +
 class `ArrayList`{
-+`insert`()
-+`pop`()
++
++
 }
 
-
-
 ```
-<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>\n\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`append`<swm-token data-swm-token=\":ArrayList.py:5:3:3:`    def append(self, value):`\"/>()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`get`<swm-token data-swm-token=\":ArrayList.py:8:3:3:`    def get(self, index):`\"/>()\n\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`size`<swm-token data-swm-token=\":ArrayList.py:14:3:3:`    def size(self):`\"/>()\n\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`remove`<swm-token data-swm-token=\":ArrayList.py:17:3:3:`    def remove(self, value):`\"/>()<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+`insert`<swm-token data-swm-token=\":ArrayList.py:25:3:3:`    def insert(self, index, value):`\"/>()<br/>\n+`pop`<swm-token data-swm-token=\":ArrayList.py:31:3:3:`    def pop(self, index=-1):`\"/>()<br/>\n}<br/>\n<br/>\n\n<br/>"} --->
+<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+<br/>\n+<br/>\n}<br/>\n<br/><br/>"} --->
 
 <br/>
 
