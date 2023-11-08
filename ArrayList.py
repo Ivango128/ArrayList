@@ -21,7 +21,7 @@ class Array:
     def __str__(self):
         return str(self.data)
 
-class ArrayList(Array):
+class ArrayList_New(Array):
     def insert(self, index, value):
         if 0 <= index <= len(self.data):
             self.data.insert(index, value)
