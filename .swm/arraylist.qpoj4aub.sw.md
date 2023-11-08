@@ -70,12 +70,12 @@ classDiagram
 `Array`: + size()
 `Array`: + remove()
 class `ArrayList`{
-+
-+
++insert()
++pop()
 }
 
 ```
-<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + append()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + get()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + size()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + remove()<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+<br/>\n+<br/>\n}<br/>\n<br/><br/>"} --->
+<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + append()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + get()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + size()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + remove()<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+insert()<br/>\n+pop()<br/>\n}<br/>\n<br/><br/>"} --->
 
 <br/>
 
