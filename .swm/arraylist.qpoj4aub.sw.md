@@ -65,7 +65,7 @@ app_version: 1.18.27
 classDiagram
 `Array` <|-- `ArrayList`
 `Array`: +`[]` `data`
-`Array`: +
+`Array`: + `append`()
 `Array`: +
 `Array`: +
 `Array`: +
@@ -75,7 +75,7 @@ class `ArrayList`{
 }
 
 ```
-<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+<br/>\n+<br/>\n}<br/>\n<br/><br/>"} --->
+<!--MCONTENT {content: "classDiagram<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/> <|-- `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +`[]`<swm-token data-swm-token=\":ArrayList.py:3:7:8:`        self.data = []`\"/> `data`<swm-token data-swm-token=\":ArrayList.py:3:3:3:`        self.data = []`\"/><br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: + `append`<swm-token data-swm-token=\":ArrayList.py:5:3:3:`    def append(self, value):`\"/>()<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\n`Array`<swm-token data-swm-token=\":ArrayList.py:1:2:2:`class Array:`\"/>: +<br/>\nclass `ArrayList`<swm-token data-swm-token=\":ArrayList.py:24:2:2:`class ArrayList(Array):`\"/>{<br/>\n+<br/>\n+<br/>\n}<br/>\n<br/><br/>"} --->
 
 <br/>
 
