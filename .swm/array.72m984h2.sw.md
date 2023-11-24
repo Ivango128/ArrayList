@@ -9,7 +9,7 @@ app_version: 1.18.27
 
 <br/>
 
-Здесь представлен класс `Array`<swm-token data-swm-token=":ArrayList.py:1:2:2:`class Array:`"/> родительский класс класса `ArrayList`<swm-token data-swm-token=":ArrayList.py:24:2:2:`class ArrayList(Array):`"/>
+Здесь представлен класс `Array`<swm-token data-swm-token=":ArrayList.py:1:2:2:`class Array:`"/> родительский класс класса `ArrayList_New`<swm-token data-swm-token=":ArrayList.py:24:2:2:`class ArrayList_New(Array):`"/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 ArrayList.py
 ```python
